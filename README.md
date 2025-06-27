@@ -55,4 +55,20 @@ LLM-Friendly: Text descriptions allow the model to understand audio features sem
 
 Interpretable: Categories (e.g., "high energy") are more intuitive than raw numbers for users.
 
+Example Usage : 
+search("a music about Drugs and in genre of hip hop", index_all, texts_artist_genre_year, 10)
+
+
+        index	texts	distance
+        0	a music titled: Your Love Is My Drug, by : Kesha released in : 2010, Genre : dance pop	        0.8068172931671143
+        1	a music titled: Overdose, by : Ciara released in : 2013, Genre : dance pop	                0.8073247671127319
+        2	a music titled: Drip (feat. Migos), by : Cardi B released in : 2018, Genre : pop	        0.9020224809646606
+        3	a music titled: Me, Myself & I, by : G-Eazy released in : 2016, Genre : hip hop	                0.9145728349685669
+        4	a music titled: Lemon, by : N.E.R.D released in : 2018, Genre : hip hop	                        0.9183028936386108
+        5	a music titled: Fancy, by : Iggy Azalea released in : 2014, Genre : australian hip hop	        0.9416817426681519
+        6	a music titled: Rock That Body, by : The Black Eyed Peas released in : 2010, Genre : dance pop	0.9535823464393616
+        7	a music titled: TiK ToK, by : Kesha released in : 2010, Genre : dance pop	                0.954178512096405
+        8	a music titled: Love The Way You Lie, by : Eminem released in : 2010, Genre : detroit hip hop	0.9603129625320435
+        9	a music titled: Starships, by : Nicki Minaj released in : 2012, Genre : dance pop
+
 Flexible: Modify thresholds or templates without retraining.
